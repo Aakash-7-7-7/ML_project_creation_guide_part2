@@ -6,5 +6,7 @@ catboost
 xgboost
 dill
 flask
-
+pymongo[srv]>=4.5
+certifi
+dotenv
 -e .

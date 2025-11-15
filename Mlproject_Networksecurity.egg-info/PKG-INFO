@@ -10,5 +10,8 @@ Requires-Dist: catboost
 Requires-Dist: xgboost
 Requires-Dist: dill
 Requires-Dist: flask
+Requires-Dist: pymongo[srv]>=4.5
+Requires-Dist: certifi
+Requires-Dist: dotenv
 Dynamic: author
 Dynamic: requires-dist
