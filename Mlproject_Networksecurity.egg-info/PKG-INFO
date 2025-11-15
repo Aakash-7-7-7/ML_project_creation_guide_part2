@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: Mlproject_Networksecurity
+Version: 0.0.1
+Author: Aakash
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: catboost
+Requires-Dist: xgboost
+Requires-Dist: dill
+Requires-Dist: flask
+Dynamic: author
+Dynamic: requires-dist
