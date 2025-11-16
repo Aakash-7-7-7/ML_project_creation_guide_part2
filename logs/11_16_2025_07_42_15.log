@@ -1,0 +1,1 @@
+[2025-11-16 07:42:17,507] [16] root - ERROR - Error occurred in python script name [C:\Users\Admin\Desktop\ML_MAIN_PRODUCTION\Project_creation_part2\main.py] line number [15] error message ['TrainingPipelineConfig' object has no attribute 'atrifact_dir']

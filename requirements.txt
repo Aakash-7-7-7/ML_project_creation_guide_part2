@@ -10,4 +10,5 @@ pymongo[srv]>=4.5
 certifi
 dotenv
 scikit-learn
+pyaml
 -e .

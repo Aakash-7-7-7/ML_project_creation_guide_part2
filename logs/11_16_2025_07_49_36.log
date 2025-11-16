@@ -1,0 +1,20 @@
+[2025-11-16 07:49:37,764] [17] root - INFO - Initiate the data ingestion
+[2025-11-16 07:49:37,764] [90] root - INFO - Data ingestion started
+[2025-11-16 07:49:43,314] [93] root - INFO - Shape of dataset extracted from MongoDB: (11055, 31)
+[2025-11-16 07:49:43,355] [96] root - INFO - Data saved into feature store
+[2025-11-16 07:49:43,357] [62] root - INFO - Performed train test split on the dataframe
+[2025-11-16 07:49:43,357] [64] root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2025-11-16 07:49:43,358] [72] root - INFO - Exporting train and test file path.
+[2025-11-16 07:49:43,408] [81] root - INFO - Exported train and test file path.
+[2025-11-16 07:49:43,409] [99] root - INFO - Train-test split completed
+[2025-11-16 07:49:43,409] [106] root - INFO - Data Ingestion Artifact: DataIngestionArtifact(trained_file_path='Artifacts\\11_16_2025_07_49_37\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\11_16_2025_07_49_37\\data_ingestion\\ingested\\test.csv')
+[2025-11-16 07:49:43,409] [107] root - INFO - Data ingestion completed successfully
+[2025-11-16 07:49:43,409] [19] root - INFO - Data Initiation Completed
+[2025-11-16 07:49:43,412] [23] root - INFO - Initiate the data Validation
+[2025-11-16 07:49:43,427] [32] root - INFO - Required number of columns:2
+[2025-11-16 07:49:43,427] [33] root - INFO - Data frame has columns:31
+[2025-11-16 07:49:43,427] [32] root - INFO - Required number of columns:2
+[2025-11-16 07:49:43,427] [33] root - INFO - Data frame has columns:31
+[2025-11-16 07:49:43,506] [16] root - ERROR - Error occurred in python script name [C:\Users\Admin\Desktop\ML_MAIN_PRODUCTION\Project_creation_part2\networksecurity\components\data_validation.py] line number [62] error message [[WinError 3] The system cannot find the path specified: 'Artifacts\\11_16_2025_07_49_37\\data_validation\\drift_report\\report.yaml\\\n               The DataValidationConfig class creates all the folder paths needed for validating the dataset. \n               It separates valid and invalid data, stores cleaned train']
+[2025-11-16 07:49:43,506] [16] root - ERROR - Error occurred in python script name [C:\Users\Admin\Desktop\ML_MAIN_PRODUCTION\Project_creation_part2\networksecurity\components\data_validation.py] line number [88] error message [Error occurred in python script name [C:\Users\Admin\Desktop\ML_MAIN_PRODUCTION\Project_creation_part2\networksecurity\components\data_validation.py] line number [62] error message [[WinError 3] The system cannot find the path specified: 'Artifacts\\11_16_2025_07_49_37\\data_validation\\drift_report\\report.yaml\\\n               The DataValidationConfig class creates all the folder paths needed for validating the dataset. \n               It separates valid and invalid data, stores cleaned train']]
+[2025-11-16 07:49:43,506] [16] root - ERROR - Error occurred in python script name [C:\Users\Admin\Desktop\ML_MAIN_PRODUCTION\Project_creation_part2\main.py] line number [24] error message [Error occurred in python script name [C:\Users\Admin\Desktop\ML_MAIN_PRODUCTION\Project_creation_part2\networksecurity\components\data_validation.py] line number [88] error message [Error occurred in python script name [C:\Users\Admin\Desktop\ML_MAIN_PRODUCTION\Project_creation_part2\networksecurity\components\data_validation.py] line number [62] error message [[WinError 3] The system cannot find the path specified: 'Artifacts\\11_16_2025_07_49_37\\data_validation\\drift_report\\report.yaml\\\n               The DataValidationConfig class creates all the folder paths needed for validating the dataset. \n               It separates valid and invalid data, stores cleaned train']]]
