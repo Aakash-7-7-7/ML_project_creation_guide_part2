@@ -13,5 +13,6 @@ Requires-Dist: flask
 Requires-Dist: pymongo[srv]>=4.5
 Requires-Dist: certifi
 Requires-Dist: dotenv
+Requires-Dist: scikit-learn
 Dynamic: author
 Dynamic: requires-dist
