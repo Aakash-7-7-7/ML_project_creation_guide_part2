@@ -1,3 +1,4 @@
 venv
 test_mongo_db.py
+mlruns
 .env
