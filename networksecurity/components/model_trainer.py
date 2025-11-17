@@ -27,6 +27,8 @@ from sklearn.ensemble import (
 #os.environ["MLFLOW_TRACKING_USERNAME"]="niranjancharan75"
 #os.environ["MLFLOW_TRACKING_PASSWORD"]="3df3db75c09d7a42b7836d9a53204ab069269021"
 
+import dagshub
+dagshub.init(repo_owner='niranjancharan75', repo_name='ML_project_creation_guide_part2', mlflow=True)
 
 class ModelTrainer:
     def __init__(self, model_trainer_config: ModelTrainerConfig,
