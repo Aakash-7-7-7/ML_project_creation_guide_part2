@@ -26,11 +26,11 @@ from networksecurity.entity.artifact_entity import(
 
 class TrainingPipeline:
     def __init__(self):
-        self.training_pipeline_config=TrainingPipeline()
+        self.training_pipeline_config=TrainingPipelineConfig()
     
     def start_data_ingestion(self):
         try:
-            self.data_ingestion_config=DataIngestionConfig(training_pipeline_config=self.data_ingestion_config)
+            self.data_ingestion_config=DataIngestionConfig(training_pipeline_config=self.training_pipeline_config)
             logging.info("Start data ingestion")
             data_ingestion=DataIngestion(data_ingestion_config=self.data_ingestion_config)
             data_ingestion_artifact=data_ingestion.initiate_data_ingestion()
@@ -86,8 +86,6 @@ class TrainingPipeline:
             data_transformation_artifact=self.start_data_transformation(data_validation_artifact=data_validation_artifact)
             model_trainer_artifact=self.start_model_trainer(data_transformation_artifact=data_transformation_artifact)
             
-            self.sync_artifact_dir_to_s3()
-            self.sync_saved_model_dir_to_s3()
             
             return model_trainer_artifact
         except Exception as e:

@@ -1,0 +1,12 @@
+[2025-11-17 10:22:39,228] [1025] httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-11-17 10:22:39,235] [107] dagshub - INFO - Accessing as niranjancharan75
+[2025-11-17 10:22:40,457] [1025] httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/niranjancharan75/ML_project_creation_guide_part2 "HTTP/1.1 200 OK"
+[2025-11-17 10:22:41,608] [1025] httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-11-17 10:22:41,610] [107] dagshub - INFO - Initialized MLflow to track repo "niranjancharan75/ML_project_creation_guide_part2"
+[2025-11-17 10:22:41,619] [107] dagshub - INFO - Repository niranjancharan75/ML_project_creation_guide_part2 initialized!
+[2025-11-17 10:24:43,037] [16] root - ERROR - Error occurred in python script name [C:\Users\Admin\Desktop\ML_MAIN_PRODUCTION\Project_creation_part2\app.py] line number [51] error message [maximum recursion depth exceeded]
+[2025-11-17 10:26:27,959] [16] root - ERROR - Error occurred in python script name [C:\Users\Admin\Desktop\ML_MAIN_PRODUCTION\Project_creation_part2\app.py] line number [51] error message [maximum recursion depth exceeded]
+[2025-11-17 10:26:37,401] [16] root - ERROR - Error occurred in python script name [C:\Users\Admin\Desktop\ML_MAIN_PRODUCTION\Project_creation_part2\app.py] line number [51] error message [maximum recursion depth exceeded]
+[2025-11-17 10:26:38,517] [16] root - ERROR - Error occurred in python script name [C:\Users\Admin\Desktop\ML_MAIN_PRODUCTION\Project_creation_part2\app.py] line number [51] error message [maximum recursion depth exceeded]
+[2025-11-17 10:26:39,271] [16] root - ERROR - Error occurred in python script name [C:\Users\Admin\Desktop\ML_MAIN_PRODUCTION\Project_creation_part2\app.py] line number [51] error message [maximum recursion depth exceeded]
+[2025-11-17 10:28:20,963] [16] root - ERROR - Error occurred in python script name [C:\Users\Admin\Desktop\ML_MAIN_PRODUCTION\Project_creation_part2\app.py] line number [51] error message [maximum recursion depth exceeded]

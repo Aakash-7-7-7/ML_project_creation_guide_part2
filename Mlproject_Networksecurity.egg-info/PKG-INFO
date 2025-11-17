@@ -17,5 +17,6 @@ Requires-Dist: scikit-learn
 Requires-Dist: pyaml
 Requires-Dist: mlflow
 Requires-Dist: dagshub
+Requires-Dist: fastapi
 Dynamic: author
 Dynamic: requires-dist
