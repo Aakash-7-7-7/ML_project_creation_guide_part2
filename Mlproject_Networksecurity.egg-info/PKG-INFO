@@ -15,5 +15,7 @@ Requires-Dist: certifi
 Requires-Dist: dotenv
 Requires-Dist: scikit-learn
 Requires-Dist: pyaml
+Requires-Dist: mlflow
+Requires-Dist: dagshub
 Dynamic: author
 Dynamic: requires-dist

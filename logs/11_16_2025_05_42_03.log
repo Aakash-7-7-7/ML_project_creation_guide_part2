@@ -1,1 +1,0 @@
-[2025-11-16 05:42:05,061] [16] root - ERROR - Error occurred in python script name [C:\Users\Admin\Desktop\ML_MAIN_PRODUCTION\Project_creation_part2\main.py] line number [11] error message ['TrainingPipelineConfig' object has no attribute 'artifact_name']

@@ -11,3 +11,5 @@ certifi
 dotenv
 scikit-learn
 pyaml
+mlflow
+dagshub
