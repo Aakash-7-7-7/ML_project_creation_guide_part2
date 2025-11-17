@@ -14,3 +14,4 @@ pyaml
 mlflow
 dagshub
 fastapi
+python-multipart

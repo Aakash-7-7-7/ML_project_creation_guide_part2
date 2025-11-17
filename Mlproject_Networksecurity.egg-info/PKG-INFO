@@ -18,5 +18,6 @@ Requires-Dist: pyaml
 Requires-Dist: mlflow
 Requires-Dist: dagshub
 Requires-Dist: fastapi
+Requires-Dist: python-multipart
 Dynamic: author
 Dynamic: requires-dist
